@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* Sidebar oculto y visible */
+.hidden-sidebar {
+    @apply transform -translate-x-full transition-transform duration-300 ease-in-out;
+}
+
+.visible-sidebar {
+    @apply transform translate-x-0 transition-transform duration-300 ease-in-out;
+}
+
+/* Fondo de superposición */
+#overlay {
+    @apply fixed inset-0 bg-gray-900 bg-opacity-50 z-30;
+}
