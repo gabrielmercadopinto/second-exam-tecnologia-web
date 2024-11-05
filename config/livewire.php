@@ -14,9 +14,6 @@ return [
     */
 
     'class_namespace' => 'App\\Livewire',
-
-    'asset_url' => 'https://www.tecnoweb.org.bo/inf513/grupo10sa/second-exam-tecnologia-web',
-
     /*
     |---------------------------------------------------------------------------
     | View Path
